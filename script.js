@@ -1,4 +1,3 @@
-<script>
     function generateSVG() {
     const text = document.getElementById("quoteInput").value;
     const font = document.getElementById("fontSelect").value;
@@ -22,4 +21,3 @@
     link.click();
     URL.revokeObjectURL(url);
 }
-</script>
