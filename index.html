@@ -8,6 +8,26 @@
 </head>
 <body>
     <h1>Craft Cut  </h1>
+    <h1>SVG Quote Generator for Cricut</h1>
+    <p>Type a custom quote and download a Cricut-ready SVG</p>
+    
+    <input type="text" id="quoteInput" placeholder="e.g. Welcome to our home" size="40" />
+    <select id="fontSelect">
+        <option value="Georgia">Georgia</option>
+        <option value="Arial">Arial</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Pacifico">Pacifico</option>
+        <option value="Lobster">Lobster</option>
+    </select>
+    <button onclick="generateSVG()">Generate</button>
+    <button onclick="downloadSVG()">Download SVG</button>
+    
+    <div id="preview"></div>
+    
+    
+    
+    <!-- Load decorative Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&display=swap" rel="stylesheet">
 
 
     <script src="script.js"></script>
